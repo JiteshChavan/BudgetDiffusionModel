@@ -10,6 +10,12 @@ The model is trained for masked and unmasked denoising representation learning s
 
 
 # Results:
+![](./assets/grid.gif)
+Prompts:
+- *Emerald brooch*
+- *Aurora Borealis*
+- *Cinnamon Bun*
+- *Lotus in watercolor style*
 ![](./assets/Eiffel.png)
 Prompts:
 - *Eiffel tower; Eiffel tower in {} {Starry Night style by Vincent Van Gogh; Isometric low poly style; tainted glass style}*
@@ -24,9 +30,6 @@ Styles: *Pixel-art, cyberpunk, starry night*"
 ![](./assets/lotuspond.png)
 Prompt: *"Moonlit night over a pond of lotuses and floating candles in drawn in the style of Starry Night by Vincent Van Gogh"*
 ---
-![](./assets/scenes.png)
-Prompts: *"Venice canals painted like a Van Gogh night scene", "Scenic landscape in florence", "Venice canals in water color style"*
----
 ![](./assets/knight.png)
 Prompt: *"concept art of a lady knight in ____ style"*
 Styles: *Pixel-art, cyberpunk, starry night*"
@@ -34,13 +37,8 @@ Styles: *Pixel-art, cyberpunk, starry night*"
 ![](./assets/dragon.png)
 Prompt: *"A celestial dragon soaring through nebula clouds, sparkling with stardust"*
 ---
-![](./assets/mordor.png)
-Prompt: *"In the land of mordor, where shadows lie"*
----
 ![](./assets/mage.png)
 Prompt: *"A cosmic mage conjuring constellations in a swirling vortex of stars"*
----
-<!-- ![](./assets/misc.png) -->
 ---
 ![](./assets/landscape.png)
 Prompts: 
@@ -159,6 +157,10 @@ These stages can be made to run sequentially by running,
 ```bash
 bash execute.sh
 ```
+
+## Inference:
+Refer inference.py for sampling script:
+![](assets/inference%20script.png)
 
 ## Acknowledgements:
 The implementation of this Diffusion Model takes heavy inspiration from the paper [Elucidating the Design Space of Diffusion-Based Generative Models](https://arxiv.org/abs/2206.00364) and [Stretching Each Dollar: Diffusion Training from Scratch on a Micro-Budget](https://arxiv.org/abs/2407.15811)
